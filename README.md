@@ -11,8 +11,6 @@ This repository houses a Jupyter notebook showcasing the integration of Permutat
 
 
 ## 📖 Table of Contents
-- [Advanced Feature Engineering for S\&P 500 Forecasting Using Permutation Entropy and XGBoost](#advanced-feature-engineering-for-sp-500-forecasting-using-permutation-entropy-and-xgboost)
-  - [📖 Table of Contents](#-table-of-contents)
   - [📌 Overview](#-overview)
   - [📊 Dataset](#-dataset)
   - [🔧 Dependencies](#-dependencies)
