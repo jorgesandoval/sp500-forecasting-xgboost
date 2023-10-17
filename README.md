@@ -1,11 +1,9 @@
 # Advanced Feature Engineering for S&P 500 Forecasting Using Permutation Entropy and XGBoost
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-[![GitHub stars](https://img.shields.io/github/stars/jorgesandoval/sp500-forecasting-xgboost.svg?style=social&label=Star)](https://github.com/jorgesandoval/sp500-forecasting-xgboost)
-
-[![GitHub downloads](https://img.shields.io/github/downloads/jorgesandoval/sp500-forecasting-xgboost/total.svg?style=flat-square)](https://github.com/jorgesandoval/sp500-forecasting-xgboost/releases)
-
-[![GitHub forks](https://img.shields.io/github/forks/jorgesandoval/sp500-forecasting-xgboost.svg?style=social&label=Fork)](https://github.com/jorgesandoval/sp500-forecasting-xgboost/fork)
+![GitHub Stars](https://img.shields.io/github/stars/jorgesandoval/sp500-forecasting-xgboost.svg)
+![GitHub Downloads](https://img.shields.io/github/downloads/jorgesandoval/sp500-forecasting-xgboost/total.svg)
+![GitHub Forks](https://img.shields.io/github/forks/jorgesandoval/sp500-forecasting-xgboost.svg)
 
 
 ![Alt text](images/PEForecasting.png)
