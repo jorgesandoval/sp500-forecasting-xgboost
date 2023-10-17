@@ -1,9 +1,12 @@
 # Advanced Feature Engineering for S&P 500 Forecasting Using Permutation Entropy and XGBoost
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![GitHub Stars](https://img.shields.io/github/stars/jorgesandoval/sp500-forecasting-xgboost.svg)
-![GitHub Downloads](https://img.shields.io/github/downloads/jorgesandoval/sp500-forecasting-xgboost/total.svg)
-![GitHub Forks](https://img.shields.io/github/forks/jorgesandoval/sp500-forecasting-xgboost.svg)
+[![GitHub stars](https://img.shields.io/github/stars/jorgesandoval/sp500-forecasting-xgboost.svg?style=social&label=Star)](https://github.com/jorgesandoval/sp500-forecasting-xgboost)
+
+[![GitHub downloads](https://img.shields.io/github/downloads/jorgesandoval/sp500-forecasting-xgboost/total.svg?style=flat-square)](https://github.com/jorgesandoval/sp500-forecasting-xgboost/releases)
+
+[![GitHub forks](https://img.shields.io/github/forks/jorgesandoval/sp500-forecasting-xgboost.svg?style=social&label=Fork)](https://github.com/jorgesandoval/sp500-forecasting-xgboost/fork)
+
 
 ![Alt text](images/PEForecasting.png)
 This repository houses a Jupyter notebook showcasing the integration of Permutation Entropy and XGBoost for forecasting the S&P 500 index using time-series data.
@@ -11,15 +14,15 @@ This repository houses a Jupyter notebook showcasing the integration of Permutat
 
 
 ## 📖 Table of Contents
-  - [📌 Overview](#-overview)
-  - [📊 Dataset](#-dataset)
-  - [🔧 Dependencies](#-dependencies)
-  - [🚀 Usage](#-usage)
-  - [📈 Key Findings](#-key-findings)
-  - [💡 Contributions](#-contributions)
-  - [📜 License](#-license)
-  - [👤 Authors](#-authors)
-  - [🙌 Acknowledgements](#-acknowledgements)
+- [📌 Overview](#-overview)
+- [📊 Dataset](#-dataset)
+- [🔧 Dependencies](#-dependencies)
+- [🚀 Usage](#-usage)
+- [📈 Key Findings](#-key-findings)
+- [💡 Contributions](#-contributions)
+- [📜 License](#-license)
+- [👤 Authors](#-authors)
+- [🙌 Acknowledgements](#-acknowledgements)
 
 ## 📌 Overview
 The notebook ingests historical S&P 500 Index data, preprocesses it, and then employs the XGBoost regression model combined with Permutation Entropy to forecast the index. The model's performance is evaluated using metrics such as Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and R-squared (Coefficient of Determination).
