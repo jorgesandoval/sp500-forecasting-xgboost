@@ -1,4 +1,4 @@
-# Advanced Feature Engineering for S&P 500 Forecasting Using Permutation Entropy and XGBoost
+# S&P 500 Index Forecasting using XGBoost
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![GitHub Stars](https://img.shields.io/github/stars/jorgesandoval/sp500-forecasting-xgboost.svg)
@@ -6,8 +6,8 @@
 ![GitHub Forks](https://img.shields.io/github/forks/jorgesandoval/sp500-forecasting-xgboost.svg)
 
 
-![Alt text](images/PEForecasting.png)
-This repository houses a Jupyter notebook showcasing the integration of Permutation Entropy and XGBoost for forecasting the S&P 500 index using time-series data.
+![Alt text](images/SP500Forecasting.png)
+This repository houses a Jupyter notebook showcasing the XGBoost for forecasting the S&P 500 index using time-series data.
 
 
 
@@ -23,7 +23,7 @@ This repository houses a Jupyter notebook showcasing the integration of Permutat
 - [🙌 Acknowledgements](#-acknowledgements)
 
 ## 📌 Overview
-The notebook ingests historical S&P 500 Index data, preprocesses it, and then employs the XGBoost regression model combined with Permutation Entropy to forecast the index. The model's performance is evaluated using metrics such as Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and R-squared (Coefficient of Determination).
+The notebook ingests historical S&P 500 Index data, preprocesses it, and then employs the XGBoost regression model to forecast the index. The model's performance is evaluated using metrics such as Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and R-squared (Coefficient of Determination).
 
 ## 📊 Dataset
 
@@ -37,7 +37,6 @@ To run the notebook, you'll need the following libraries:
 - pandas
 - numpy
 - matplotlib
-- pyentrp
 - scikit-learn
 - xgboost
 
@@ -60,11 +59,20 @@ pip install pandas numpy matplotlib pyentrp scikit-learn xgboost
     cd sp500-forecasting-xgboost
     jupyter notebook
     ```
-3. **Run the notebook**: Execute the notebook cells sequentially to preprocess the data, compute Permutation Entropy features, train the XGBoost model, and evaluate its performance.
+3. **Run the notebook**: Execute the notebook cells sequentially to preprocess the data, train the XGBoost model, and evaluate its performance.
 ## 📈 Key Findings
-* The notebook leverages Permutation Entropy to assess the complexity and unpredictability of the time series data.
-* Lagged values of the S&P 500 Index are added as features to capture temporal dependencies.
-* The XGBoost regressor model is trained and evaluated, with performance metrics displayed at the end of the notebook.
+
+* Consistent rise from 2014 to mid-2017.
+* Fluctuations and a notable decline around 2018.
+* Surge from early 2019 to 2020.
+* Sharp decline in 2020, likely indicating an economic downturn.
+* Swift recovery leading into 2022.
+* Relative stability with minor oscillations from 2022 to 2024.
+* Root Mean Squared Error (RMSE): 52.67, indicating an average deviation of approximately 52.67 points from the actual S&P 500 index values.
+* Mean Absolute Error (MAE): 21.41, signifying an average absolute error of 21.41 points in the model's predictions.
+* R-squared value: 0.97 (or 91%), suggesting that the model explains 91% of the variance in the S&P 500 index.
+* Actual vs. Predicted Analysis: The XGBoost model's predictions generally followed the actual trajectory of the S&P 500 Index.
+* While the overall trend was captured, there were specific instances where the model's predictions deviated from the actual values.
 
 ## 💡 Contributions
 
