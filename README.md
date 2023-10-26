@@ -12,15 +12,17 @@ This repository houses a Jupyter notebook showcasing the XGBoost for forecasting
 
 
 ## 📖 Table of Contents
-- [📌 Overview](#-overview)
-- [📊 Dataset](#-dataset)
-- [🔧 Dependencies](#-dependencies)
-- [🚀 Usage](#-usage)
-- [📈 Key Findings](#-key-findings)
-- [💡 Contributions](#-contributions)
-- [📜 License](#-license)
-- [👤 Authors](#-authors)
-- [🙌 Acknowledgements](#-acknowledgements)
+- [S\&P 500 Index Forecasting using XGBoost](#sp-500-index-forecasting-using-xgboost)
+  - [📖 Table of Contents](#-table-of-contents)
+  - [📌 Overview](#-overview)
+  - [📊 Dataset](#-dataset)
+  - [🔧 Dependencies](#-dependencies)
+  - [🚀 Usage](#-usage)
+  - [📈 Key Findings](#-key-findings)
+  - [💡 Contributions](#-contributions)
+  - [📜 License](#-license)
+  - [👤 Authors](#-authors)
+  - [🙌 Acknowledgements](#-acknowledgements)
 
 ## 📌 Overview
 The notebook ingests historical S&P 500 Index data, preprocesses it, and then employs the XGBoost regression model to forecast the index. The model's performance is evaluated using metrics such as Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and R-squared (Coefficient of Determination).
@@ -43,7 +45,7 @@ To run the notebook, you'll need the following libraries:
 You can install these using `pip`:
 
 ```bash
-pip install pandas numpy matplotlib pyentrp scikit-learn xgboost
+pip install pandas numpy matplotlib scikit-learn xgboost
 ```
 
 ## 🚀 Usage
